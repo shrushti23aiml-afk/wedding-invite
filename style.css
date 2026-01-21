@@ -57,6 +57,9 @@ body{
     background-position:center ;
     background-repeat: no-repeat;
     padding-top: 200px;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
 }
 
 .text-invite,.couple{
@@ -228,12 +231,18 @@ font-family: 'Cormorant Garamond', serif;
 .couple-image{
     max-width:300px;
     height:auto;
+    display:block;
+    margin:0 auto;
 }
 @media (max-width: 768px) {
 
   
   .invitation {
     padding-top: 80px;
+  }
+.text-invite{
+    margin-top: 0;
+    padding:0 16px;
   }
 
   
@@ -260,15 +269,19 @@ font-family: 'Cormorant Garamond', serif;
     max-width: 300px;
     height: auto;
   }
+
   .names {
     font-size: 34px;
     letter-spacing: 1px;
+    margin-bottom:10px;
   }
 
   .invite-text {
     font-size: 14px;
     padding: 0 18px;
+    margin-top:10px;
   }
+
 
   .details {
     font-size: 13px;
@@ -276,9 +289,16 @@ font-family: 'Cormorant Garamond', serif;
 
   .couple-wrapper {
     max-width: 260px;
-    transform: translateY(-20px);
+    transform: translateY(0);
     box-shadow:0 12px 24px rgba(255,230,220,0.4);
+    margin-top:30px;
   }
-
-
 }
+@keyframes fall{
+    to{
+        transform:translateY(140px);
+        opacity:0;
+    }
+}
+
+
