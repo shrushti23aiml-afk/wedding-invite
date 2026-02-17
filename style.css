@@ -247,7 +247,7 @@ font-family: 'Cormorant Garamond', serif;
 
   
   .text-top h1 {
-    font-size: 32%;
+    font-size: 28px;
     line-height: 1.2;
   }
 
@@ -271,9 +271,12 @@ font-family: 'Cormorant Garamond', serif;
   }
 
   .names {
-    font-size: 34px;
+    font-size: 28px;
     letter-spacing: 1px;
-    margin-bottom:10px;
+    margin-bottom:8px;
+      line-height:1.2;
+      text-align:center;
+      
   }
 
   .invite-text {
