@@ -115,10 +115,10 @@ html,body{
 }
 
 .couple-wrapper{
-    width:100%;
+    width:70%;
     max-width:320px;
     height:auto;
-    transform: translateY(-40px);
+    transform: translateX(-40px);
     border-radius:24px;
     opacity: 0.92;
     box-shadow:0 20px 40px rgba(255,230,220,0.6);
@@ -213,9 +213,10 @@ font-family: 'Cormorant Garamond', serif;
     line-height: 1.6;
     width:85%;
     position:absolute;
-    bttom:18%;
+    bottom:18%;
     left:50%;
     text-align:center;
+    transform:translateX(-50%);
     
 }
 
@@ -226,6 +227,11 @@ font-family: 'Cormorant Garamond', serif;
     opacity: 0.85;
     margin-top: 10px;
     color:#542f2f
+    text-align:center;
+    left:50%;
+    bottom:12%;
+    width:90%;
+    transform:translateX(-50);
 }
 @media(max-width:600px){
     .couple-image{
@@ -233,7 +239,7 @@ font-family: 'Cormorant Garamond', serif;
     }
 }
 .couple-image{
-    max-width:300px;
+    width:100%;
     height:auto;
     display:block;
     margin:0 auto;
@@ -241,9 +247,7 @@ font-family: 'Cormorant Garamond', serif;
 @media (max-width: 768px) {
 
   
-  .invitation {
-    padding-top: 80px;
-  }
+ 
 .text-invite{
     margin-top: 0;
     padding:0 16px;
@@ -296,15 +300,11 @@ font-family: 'Cormorant Garamond', serif;
   }
 
 
-  .details {
-    font-size: 13px;
-  }
 
   .couple-wrapper {
-    max-width: 260px;
-    transform: translateY(0);
-    box-shadow:0 12px 24px rgba(255,230,220,0.4);
     margin-top:30px;
+      position:absolute;
+      
   }
 }
 @keyframes fall{
