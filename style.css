@@ -26,6 +26,7 @@ overflow:visible;
 }
 body{
     background-color:rgb(167, 107, 157);
+    overflow-x:hidden;
 } 
 
 
@@ -52,7 +53,7 @@ body{
 .invitation{
     position:relative;
     width:100%;
-    height:100vh;
+    min-height:100vh;
     background-image: url("puto.png");
     background-size: cover;
     background-position:center ;
