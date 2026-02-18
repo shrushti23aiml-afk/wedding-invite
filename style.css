@@ -55,8 +55,8 @@ body{
     width:100%;
     min-height:100vh;
     background-image: url("puto.png");
-    background-size: cover;
-    background-position:center ;
+    background-size: 100%  auto;
+    background-position:top center ;
     background-repeat: no-repeat;
     overflow:hidden;
 }
