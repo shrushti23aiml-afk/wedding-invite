@@ -53,12 +53,12 @@ body{
 .invitation{
     position:relative;
     width:100%;
-    min-height:100vh;
     background-image: url("puto.png");
     background-size: cover;
     background-position:top center ;
     background-repeat: no-repeat;
     overflow:hidden;
+    padding-bottom:300px;
 }
 
 .text-invite,.couple{
@@ -115,10 +115,10 @@ html,body{
 }
 
 .couple-wrapper{
-    width:70%;
+    width:100%;
     max-width:320px;
     height:auto;
-    transform: translateX(-40px);
+    transform: translateY(-40px);
     border-radius:24px;
     opacity: 0.92;
     box-shadow:0 20px 40px rgba(255,230,220,0.6);
@@ -303,7 +303,6 @@ font-family: 'Cormorant Garamond', serif;
 
   .couple-wrapper {
     margin-top:30px;
-      position:absolute;
       
   }
 }
