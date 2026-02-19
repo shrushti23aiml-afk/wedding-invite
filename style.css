@@ -125,6 +125,7 @@ html,body{
     margin: 40px auto 0 auto;
     filter:none;
     bottom:80px;
+    position:relative;
      -webkit-mask-image:linear-gradient(
             to right,
             rgba(0,0,0,0) 0%,
