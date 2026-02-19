@@ -58,7 +58,7 @@ body{
     background-position:top center ;
     background-repeat: no-repeat;
     overflow:hidden;
-    min-height:130vh;
+    min-height:120vh;
 }
 
 .text-invite,.couple{
@@ -115,7 +115,7 @@ html,body{
 }
 
 .couple-wrapper{
-    width:100%;
+    width:70%;
     max-width:320px;
     height:auto;
     border-radius:24px;
@@ -125,9 +125,9 @@ html,body{
     margin:auto;
     filter:none;
     left:50%;
-    top:70%;
     position:absolute;
-    transform:translate(-50%,-50%);
+    transform:translateY(-50%,-50%);
+    bottom:80px;
      -webkit-mask-image:linear-gradient(
             to right,
             rgba(0,0,0,0) 0%,
