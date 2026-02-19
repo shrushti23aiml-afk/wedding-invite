@@ -122,11 +122,8 @@ html,body{
     opacity: 0.92;
     box-shadow:0 20px 40px rgba(255,230,220,0.6);
     filter:saturate(0.98) contrast(0.98);
-    margin:auto;
+    margin: 40px auto 0 auto;
     filter:none;
-    left:50%;
-    position:absolute;
-    transform:translateY(-50%,-50%);
     bottom:80px;
      -webkit-mask-image:linear-gradient(
             to right,
