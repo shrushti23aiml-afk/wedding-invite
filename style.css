@@ -124,6 +124,8 @@ html,body{
     filter:saturate(0.98) contrast(0.98);
     margin:auto;
     filter:none;
+    left:50%;
+    top:60%;
     
      -webkit-mask-image:linear-gradient(
             to right,
