@@ -52,13 +52,14 @@ body{
 }
 .invitation{
     position:relative;
-    width:100%;
+    width: 100%;
     background-image: url("puto.png");
     background-size: cover;
     background-position:top center ;
     background-repeat: no-repeat;
     overflow:hidden;
-    padding-bottom:100px;
+    padding-bottom: 100px;
+    min-height: 100vh;
 }
 
 .text-invite,.couple{
@@ -232,6 +233,7 @@ font-family: 'Cormorant Garamond', serif;
     bottom:12%;
     width:90%;
     transform:translateX(-50%);
+    position:absolute;
 }
 @media(max-width:600px){
     .couple-image{
