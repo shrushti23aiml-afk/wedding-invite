@@ -58,7 +58,7 @@ body{
     background-position:top center ;
     background-repeat: no-repeat;
     overflow:hidden;
-    padding-bottom:300px;
+    min-height:130vh;
 }
 
 .text-invite,.couple{
@@ -125,9 +125,9 @@ html,body{
     margin:auto;
     filter:none;
     left:50%;
-    top:55%;
+    top:70%;
     position:absolute;
-    
+    transform:translate(-50%,-50%);
      -webkit-mask-image:linear-gradient(
             to right,
             rgba(0,0,0,0) 0%,
@@ -233,7 +233,7 @@ font-family: 'Cormorant Garamond', serif;
     left:50%;
     bottom:12%;
     width:90%;
-    transform:translateX(-50);
+    transform:translateX(-50%);
 }
 @media(max-width:600px){
     .couple-image{
