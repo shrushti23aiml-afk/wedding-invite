@@ -126,7 +126,8 @@ html,body{
     margin: 40px auto 0 auto;
     filter:none;
     bottom:80px;
-    top:42%;
+    top:48%;
+    left:50%;
     position:absolute;
      -webkit-mask-image:linear-gradient(
             to right,
