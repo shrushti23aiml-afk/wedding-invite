@@ -229,7 +229,7 @@ font-family: 'Cormorant Garamond', serif;
     color:#542f2f;
     text-align:center;
     left:50%;
-    bottom:8%;
+    bottom:12%;
     width:90%;
     transform:translateX(-50%);
     position:absolute;
@@ -281,7 +281,7 @@ font-family: 'Cormorant Garamond', serif;
 
   .names {
       position:absolute;
-      top:38%;
+      top:15%;
       width:90%;
       left: 50%;                     
     transform: translateX(-50%);
