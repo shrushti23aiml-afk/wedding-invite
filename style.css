@@ -215,11 +215,11 @@ font-family: 'Cormorant Garamond', serif;
     color: #5a3a3a;
     line-height: 1.6;
     width:85%;
-    position:absolute;
-    bottom:18%;
-    left:50%;
+    position:relative;
+    bottom:auto;
+    left:auto;
     text-align:center;
-    transform:translateX(-50%);
+    transform:none;
     
 }
 
@@ -228,14 +228,14 @@ font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     letter-spacing: 1px;
     opacity: 0.85;
-    margin-top: 140px;
+    margin-top: 12px;
     color:#542f2f;
     text-align:center;
-    left:50%;
-    bottom:12%;
+    left:auto;
+    bottom:auto;
     width:90%;
-    transform:translateX(-50%);
-    position:absolute;
+    transform:none;
+    position:relative;
 }
 @media(max-width:600px){
     .couple-image{
@@ -283,18 +283,18 @@ font-family: 'Cormorant Garamond', serif;
   }
 
   .names {
-      position:absolute;
+      position:relative;
       top:15%;
       width:90%;
-      left: 50%;                     
-    transform: translateX(-50%);
+      left: auto ;                     
+    transform: none;
     font-size: 30px;
     letter-spacing: 1px;
     margin-bottom:8px;
       line-height:1.2;
       text-align:center;
       z-index:5;
-      margin-top:120px;
+      margin-top:24px;
       
   }
 
