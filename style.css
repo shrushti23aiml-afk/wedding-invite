@@ -123,13 +123,9 @@ html,body{
     opacity: 0.92;
     box-shadow:0 20px 40px rgba(255,230,220,0.6);
     filter:saturate(0.98) contrast(0.98);
+    margin: 60px auto 0 auto;
 
     filter:none;
-
-    top:48%;
-    left:50%;
-    transform:translateX(50%);
-    position:absolute;
      -webkit-mask-image:linear-gradient(
             to right,
             rgba(0,0,0,0) 0%,
@@ -307,10 +303,7 @@ font-family: 'Cormorant Garamond', serif;
 
 
 
-  .couple-wrapper {
-    margin-top:30px;
-      
-  }
+
 }
 @keyframes fall{
     to{
