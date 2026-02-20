@@ -124,7 +124,10 @@ html,body{
     box-shadow:0 20px 40px rgba(255,230,220,0.6);
     filter:saturate(0.98) contrast(0.98);
     margin:40px auto  0 auto;
-    position:relative;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translateX(-50%);
     filter:none;
      -webkit-mask-image:linear-gradient(
             to right,
