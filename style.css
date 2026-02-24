@@ -25,7 +25,7 @@ overflow:visible;
 
 }
 body{
-    background-color:rgb(167, 107, 157);
+    background-color:#b98d62;
     overflow-x:hidden;
 } 
 
@@ -443,4 +443,10 @@ align-items: center;
 
 .events::after{
     bottom:-16px;
+}
+.event-line{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-weight: 600;
 }
