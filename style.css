@@ -228,7 +228,7 @@ font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     letter-spacing: 1px;
     opacity: 0.85;
-    margin-top: 25px;
+    margin-top: 15px;
     color:#542f2f;
     text-align:center;
     left:auto;
@@ -292,14 +292,14 @@ font-family: 'Cormorant Garamond', serif;
       line-height:1.2;
       text-align:center;
       z-index:5;
-      margin-top:50px;
+      margin-top:60px;
       
   }
 
   .invite-text {
     font-size: 14px;
     padding: 0 18px;
-    margin-top:80px;
+    margin-top:20px;
   }
 .main-section{
     flex-direction:column;
@@ -391,3 +391,10 @@ font-family: 'Cormorant Garamond', serif;
 .text-bottom{
     margin-top: 20px;
 }
+.tap-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    margin-top: 8px;
+    color: #8b5e3c;
+}
+
