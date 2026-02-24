@@ -332,13 +332,14 @@ font-family: 'Cormorant Garamond', serif;
     top: 52%;
     transform: translateX(-50%) scaleY(0);
     transform-origin: top;
-
+ display: flex;
+    flex-direction: column;
     width: 300px;
-    padding: 120px 40px 120px 40px; /* space for rods */
+    padding: 120px 40px; 
 
     background: url("dottie.png") no-repeat center;
     background-size: contain;
-
+align-items: center;
     text-align: center;
     z-index: 6;
           justify-content: center;
