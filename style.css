@@ -326,34 +326,25 @@ font-family: 'Cormorant Garamond', serif;
     width:100%;
 }
 .events{
-     position: absolute;
+     .events{
+    position: absolute;
     left: 50%;
     top: 52%;
-    width: 280px;
-
     transform: translateX(-50%) scaleY(0);
     transform-origin: top;
 
-    padding: 50px 35px;
+    width: 300px;
+    padding: 120px 40px 120px 40px; /* space for rods */
 
-    background: 
-        radial-gradient(circle at top, rgba(255,255,255,0.4), transparent 60%),
-        radial-gradient(circle at bottom, rgba(0,0,0,0.08), transparent 70%),
-        linear-gradient(to bottom, #f3dfbb, #e2c89a);
-
-    border: 1px solid rgba(120,80,40,0.35);
-
-    border-radius: 0;
-
-    box-shadow:
-        0 35px 50px rgba(0,0,0,0.5),
-        inset 0 0 60px rgba(120,80,40,0.25);
+    background: url("scroll.png") no-repeat center;
+    background-size: contain;
 
     text-align: center;
     z-index: 6;
 
-    animation: scrollDrop 3.5s ease forwards;
+    animation: scrollDrop 3s ease forwards;
     animation-delay: 2.5s;
+}
      
 }
 .events h3{
