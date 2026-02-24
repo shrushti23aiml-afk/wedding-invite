@@ -328,45 +328,45 @@ font-family: 'Cormorant Garamond', serif;
 .events{
    position: absolute;
     left: 50%;
-    top: 55%;
-    width: 270px;
+    top: 52%;
+    width: 280px;
 
-    transform: translateX(-50%) translateY(-60px) scaleY(0);
+    transform: translateX(-50%)  scaleY(0);
     transform-origin: top;
 
     background: linear-gradient(
         to bottom,
-         #f9efe0 0%,
-    #f1dcc2 100%
+        #f6e6c8 0%,
+        #ecd5ad 100%
+  
     );
 
-    border:2px solid #c8a96a;
-    border-radius: 22px;
+    border:2px solid #b9975b;
+    border-radius: 6px;
 
-    padding: 22px 20px;
+    padding: 30px 20px;
     text-align: center;
 
     box-shadow:
-      0 20px 40px rgba(0,0,0,0.3),
-    inset 0 0 18px rgba(255,255,255,0.6);
+      0 25px 40px rgba(0,0,0,0.35);
 
     z-index: 6;
 
-    animation: cardDrop 1.2s ease-out forwards;
+    animation:scrollDrop 1.5s ease-out forwards;
     animation-delay: 2.5s;
 }
 .events h3{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    color: #5b3b2a;
-    margin-bottom: 10px;
+    font-size: 22px;
+    color: #5b3a1e;
+    margin-bottom: 12px;
 }
 
 .events p{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 15px;
-    margin: 6px 0;
-    color: #4a2c2c;
+    font-size: 16px;
+    margin: 8px 0;
+    color: #4a2c1a;
 }
 
 .events h3::after{
@@ -397,20 +397,40 @@ font-family: 'Cormorant Garamond', serif;
     color: #c89b6d;
     border-color: #c89b6d;
 }
-@keyframes cardDrop {
+@keyframes scrollDrop{
     0%{
-        transform: translateX(-50%) translateY(-120px) rotateX(90deg);
+        transform: translateX(-50%) scaleY(0);
         opacity: 0;
     }
-    60%{
-        transform: translateX(-50%) translateY(10px) rotateX(-6deg);
+    70%{
+        transform: translateX(-50%) scaleY(1.05);
         opacity: 1;
     }
     100%{
-        transform: translateX(-50%) translateY(0) rotateX(0deg);
+        transform: translateX(-50%) scaleY(1);
         opacity: 1;
     }
-
+}
+.events::before,
+.events::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width: 320px;
+    height: 14px;
+    background: linear-gradient(
+        to bottom,
+        #c49a6c,
+        #9c6f3f
+    );
+    border-radius: 6px;
 }
 
+.events::before{
+    top:-12px;
+}
 
+.events::after{
+    bottom:-12px;
+}
