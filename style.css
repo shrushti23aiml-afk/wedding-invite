@@ -335,6 +335,10 @@ font-family: 'Cormorant Garamond', serif;
     border-radius:15px;
     text-align:center;
 }
+.location{
+    text-align:center;
+    margin-top:40px;
+}
 .location a{
     text-decoration: none;
     color: #8b5e3c;
