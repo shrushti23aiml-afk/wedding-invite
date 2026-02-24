@@ -63,7 +63,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-}
+  
 
 .text-invite,.couple{
     position:relative;
@@ -228,7 +228,7 @@ font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     letter-spacing: 1px;
     opacity: 0.85;
-    margin-top: 15px;
+    margin-top: 40px;
     color:#542f2f;
     text-align:center;
     left:auto;
@@ -357,7 +357,7 @@ font-family: 'Cormorant Garamond', serif;
 
 .location{
     text-align:center;
-    margin-top:20px;
+    margin-top:80px;
     position:relative;
     z-index:10;
 }
