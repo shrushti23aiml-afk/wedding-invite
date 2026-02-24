@@ -20,7 +20,7 @@ overflow:visible;
 
 .text-invite{
     position:relative;
-    margin-top:60px;
+    margin-top:100px;
     text-align:center;
 
 }
@@ -228,7 +228,7 @@ font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     letter-spacing: 1px;
     opacity: 0.85;
-    margin-top: 16px;
+    margin-top: 25px;
     color:#542f2f;
     text-align:center;
     left:auto;
@@ -325,7 +325,7 @@ font-family: 'Cormorant Garamond', serif;
     margin-top:40px;
     width:100%;
 }
-.events{
+
      .events{
     position: absolute;
     left: 50%;
@@ -346,7 +346,7 @@ align-items: center;
 
     animation: scrollDrop 3s ease forwards;
     animation-delay: 2.5s;
-}
+
      
 }
 .events h3{
