@@ -210,9 +210,9 @@ html,body{
 }
 .invite-text{
 font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-size: 22px;
     color: #5a3a3a;
-    line-height: 1.6;
+    line-height: 1.8;
     width:85%;
     position:relative;
     bottom:auto;
