@@ -361,6 +361,7 @@ align-items: center;
     font-size: 16px;
     margin: 8px 0;
     color: #4a2c1a;
+    text-align:center;
 }
 
 .events h3::after{
