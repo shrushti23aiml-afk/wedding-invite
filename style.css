@@ -174,7 +174,7 @@ html,body{
         opacity: 1;
     }
     to{
-        transform: translateY(180px);
+        transform: translateY(140px);
         opacity: 0;
     }
 }
@@ -316,28 +316,29 @@ font-family: 'Cormorant Garamond', serif;
 
 
 }
-@keyframes fall{
-    to{
-        transform:translateY(140px);
-        opacity:0;
-    }
-}
+
 .main-section{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:40px;
     margin-top:40px;
+    width:100%;
 }
 .events{
     background:rgba(255,255,255,0.7);
     padding:20px;
     border-radius:15px;
     text-align:center;
+    position:relative;
+    z-index:2;
+    width:220px;
 }
 .location{
     text-align:center;
     margin-top:40px;
+    position:relative;
+    z-index:2;
 }
 .location a{
     text-decoration: none;
