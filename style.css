@@ -211,7 +211,7 @@ html,body{
 }
 .invite-text{
 font-family: 'Cormorant Garamond', serif;
-    font-size: 35px;
+    font-size: 20px;
     color: #5a3a3a;
     line-height: 1.6;
     width:85%;
@@ -383,4 +383,11 @@ font-family: 'Cormorant Garamond', serif;
 
 .map-link:hover{
     transform: scale(1.2);
+}
+.text-top{
+    margin-top: 40px;
+}
+
+.text-bottom{
+    margin-top: 20px;
 }
