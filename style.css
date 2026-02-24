@@ -20,7 +20,7 @@ overflow:visible;
 
 .text-invite{
     position:relative;
-    margin-top:100px;
+    margin-top:110px;
     text-align:center;
 
 }
@@ -251,7 +251,7 @@ font-family: 'Cormorant Garamond', serif;
   
  
 .text-invite{
-    margin-top: 0;
+    margin-top: 110px;
     padding:0 16px;
   }
 
